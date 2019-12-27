@@ -9,7 +9,7 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-LOG_LEVEL = 'INFO'
+#LOG_LEVEL = 'INFO'
 
 BOT_NAME = 'boardgamecrawler'
 
@@ -17,7 +17,7 @@ SPIDER_MODULES = ['boardgamecrawler.spiders']
 NEWSPIDER_MODULE = 'boardgamecrawler.spiders'
 
 FEED_FORMAT = 'json'
-FEED_URI = 'file3.json'
+FEED_URI = 'file4.json'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'boardgamecrawler (+http://www.yourdomain.com)'
 
